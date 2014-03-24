@@ -209,12 +209,6 @@ label {
   margin:1em auto;
 }
 
-.image-overlay:hover {
-  -webkit-filter:grayscale(0);
-  -moz-filter:grayscale(0);
-  filter:grayscale(0);
-}
-
 .image-overlay:hover img {
   opacity: 0.25;
 }
