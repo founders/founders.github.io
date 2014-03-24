@@ -188,6 +188,12 @@ label {
   display:block;
 }
 
+.image-overlay {
+  position: relative;
+  width: 100%;
+}
+
+
 .circle {
   display:block;
   width:150px;
@@ -200,16 +206,32 @@ label {
   border-radius:99em;
   border:5px solid #eee;
   box-shadow:0 3px 2px rgba(0,0,0,0.3);
-  -webkit-filter:grayscale(100%);
-  -moz-filter:grayscale(100%);
-  filter:grayscale(100%);
   margin:1em auto;
 }
 
-.circle:hover {
+.image-overlay:hover {
   -webkit-filter:grayscale(0);
   -moz-filter:grayscale(0);
   filter:grayscale(0);
+}
+
+.image-overlay:hover img {
+  opacity: 0.25;
+}
+
+.image-overlay h3 {
+  position: relative;
+  display-inline: block;
+  vertical-align: middle;
+}
+
+h4.js-hidden {
+  display: block;
+  position: relative;
+  width: 100%;
+  color: white; 
+  visibility: hidden;
+  top: -150px;
 }
 
 a:hover,a:active,.white-back a:hover,.white-back a:active {
