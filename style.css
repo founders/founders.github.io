@@ -200,9 +200,6 @@ label {
   border-radius:99em;
   border:5px solid #eee;
   box-shadow:0 3px 2px rgba(0,0,0,0.3);
-  -webkit-filter:grayscale(100%);
-  -moz-filter:grayscale(100%);
-  filter:grayscale(100%);
   margin:1em auto;
 }
 
@@ -210,6 +207,10 @@ label {
   -webkit-filter:grayscale(0);
   -moz-filter:grayscale(0);
   filter:grayscale(0);
+}
+
+span.js-hidden {
+  display: none;
 }
 
 a:hover,a:active,.white-back a:hover,.white-back a:active {
