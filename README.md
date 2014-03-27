@@ -1,4 +1,4 @@
 Illinois-Founders.github.io
 ===========================
 
-New Landing Page for [Illinois Founders](founders.illinois.edu) hosted by Github
+New Landing Page for [Illinois Founders](http://founders.illinois.edu) hosted by Github
