@@ -85,7 +85,8 @@ h1 {
   margin:20px 0;
 }
 
-#about p {
+#about p,
+#details p {
   font-size: 1.5em;
   color: #ddd;
   padding: 0 20px;
@@ -250,7 +251,8 @@ img,.img-link {
     padding:30px 0;
   }
 
-  #about p {
+  #about p,
+  #details p {
     font-size: 1em;
   }
 }
@@ -262,4 +264,8 @@ img,.img-link {
   #events .event-block {
     padding: 20px 0;
   }
+}
+
+img.logo {
+  padding: 70px 0;
 }
