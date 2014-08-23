@@ -27,15 +27,17 @@
     <div class="navbar">
         <div class="container">
             <ul class="nav">
-              <li><a href="#about">About</a></li>
-              <li><a href="#events">Events</a></li>
-              <li><a href="#people">People</a></li>
-              <li><a href="#join">Join</a></li>
+              <li><a data-scroll href="#home">Home</a></li>
+              <li><a data-scroll href="#about">About</a></li>
+              <li><a data-scroll href="#events">Events</a></li>
+              <li><a data-scroll href="#people">People</a></li>
+              <li><a data-scroll href="#join">Join</a></li>
+              <li><a href="http://blog.founders.illinois.edu">Blog</a></li>
             </ul>
           </div>
       </div>
     </div>
-    <div class="splash pure-g-r">
+    <div id="home" class="splash pure-g-r">
       <div class="pure-u-1">
         <h1>
           Founders exposes students to <br>
@@ -61,11 +63,13 @@
     <h2>Events</h2>
     <div class="pure-g-r">
       <div class="pure-u-1-3 event-block">
-        <img src="./img/pitchfire.png" alt="">
+        <a href="./events/pitchfire.html" class="img-link">
+          <img src="./img/pitchfire.png" alt="">
+        </a>
       </div>
       <div class="pure-u-1-3 event-block">
         <a href="http://www.54.io" target="_blank" class="img-link">
-        <img src="./img/54_white.png" alt="">
+          <img src="./img/54_white.png" alt="">
         </a>
       </div>
       <div class="pure-u-1-3 event-block">
@@ -84,58 +88,74 @@
     <h2>People</h2>
     <div class="pure-g-r center">
       <div class="pure-u-1-5">
-        <img class="circle" src="./img/jay.jpg" alt="">
-        <h3>Jay Bensal</h3>
-        <h4>Project Director<br> 54</h4>
-        <a href="mailto:bensal2@illinois.edu">email</a>
+        <div class="image-overlay" onmouseover="show('title-1')" onmouseout="hide('title-1')">
+          <img class="circle" src="./img/jay.jpg" alt="">
+          <h3><a href="mailto:bensal2@illinois.edu">Jay Bensal</a></h3>
+          <h4 class="js-hidden" id="title-1"><span>Project Director<br> 54</span></h4>
+        </div>
       </div>
       <div class="pure-u-1-5">
-        <img class="circle" src="./img/ben.jpg" alt="">
-        <h3>Ben Ng</h3>
-        <h4>VP Finance</h4>
-        <a href="mailto:kbng2@illinois.edu">email</a>
+        <div class="image-overlay" onmouseover="show('title-2')" onmouseout="hide('title-2')">
+          <img class="circle" src="./img/ben.jpg" alt="">
+          <h3><a href="mailto:kbng2@illinois.edu">Ben Ng</a></h3>
+          <h4 class="js-hidden" id="title-2">VP Finance</h4>
+        </div>
       </div>
       <div class="pure-u-1-5">
-        <img class="circle" src="./img/eric.jpg" alt="">
-        <h3>Eric Mills</h3>
-        <h4>President</h4>
-        <a href="mailto:mills16@illinois.edu">email</a>
+        <div class="image-overlay" onmouseover="show('title-3')" onmouseout="hide('title-3')">
+          <img class="circle" src="./img/eric.jpg" alt="">
+          <h3><a href="mailto:mills16@illinois.edu">Eric Mills</a></h3>
+          <h4 class="js-hidden" id="title-3">President</h4>
+        </div>
       </div>
       <div class="pure-u-1-5">
-        <img class="circle" src="./img/sean.jpg" alt="">
-        <h3>Sean Abraham</h3>
-        <h4>VP External</h4>
-        <a href="mailto:abraha17@illinois.edu">email</a>
+        <div class="image-overlay" onmouseover="show('title-4')" onmouseout="hide('title-4')">
+          <img class="circle" src="./img/sean.jpg" alt="">
+          <h3><a href="mailto:abraha17@illinois.edu">Sean Abraham</a></h3>
+          <h4 class="js-hidden" id="title-4">VP External</h4>
+        </div>
       </div>
       <div class="pure-u-1-5">
-        <img class="circle" src="./img/rohan.jpg" alt="">
-        <h3>Rohan Kapoor</h3>
-        <h4>Web Developer<br>&amp; Media Director</h4>
-        <a href="mailto:rkapoor6@illinois.edu">email</a>
+        <div class="image-overlay" onmouseover="show('title-5')" onmouseout="hide('title-5')">
+          <img class="circle" src="./img/rohan.jpg" alt="">
+          <h3><a href="mailto:rkapoor6@illinois.edu">Rohan Kapoor</a></h3>
+          <h4 class="js-hidden" id="title-5">Web Developer<br>&amp; Media Director</h4>
+        </div>
       </div>
       <div class="pure-u-1-5">
-        <img class="circle" src="./img/nikhil.jpg" alt="">
-        <h3>Nikhil Kapur</h3>
-        <h4>Project Director<br>SpotLight</h4>
-        <a href="mailto:kapur8@illinois.edu">email</a>
+        <div class="image-overlay" onmouseover="show('title-6')" onmouseout="hide('title-6')">
+          <img class="circle" src="./img/nikhil.jpg" alt="">
+          <h3><a href="mailto:kapur8@illinois.edu">Nikhil Kapur</a></h3>
+          <h4 class="js-hidden" id="title-6">Project Director<br>SpotLight</h4>
+        </div>
       </div>
       <div class="pure-u-1-5">
-        <img class="circle" src="./img/emily.jpg" alt="">
-        <h3>Emily Maul</h3>
-        <h4>Marketing</h4>
-        <a href="mailto:maul2@illinois.edu">email</a>
+        <div class="image-overlay" onmouseover="show('title-7')" onmouseout="hide('title-7')">
+          <img class="circle" src="./img/emily.jpg" alt="">
+          <h3><a href="mailto:maul2@illinois.edu">Emily Maul</a></h3>
+          <h4 class="js-hidden" id="title-7">Marketing</h4>
+        </div>
       </div>
       <div class="pure-u-1-5">
-        <img class="circle" src="./img/liz.jpg" alt="">
-        <h3>Liz Graff</h3>
-        <h4>Marketing</h4>
-        <a href="mailto:egraff2@illinois.edu">email</a>
+        <div class="image-overlay" onmouseover="show('title-8')" onmouseout="hide('title-8')">
+          <img class="circle" src="./img/liz.jpg" alt="">
+          <h3><a href="mailto:egraff2@illinois.edu">Liz Graff</a></h3>
+          <h4 class="js-hidden" id="title-8">Marketing</h4>
+        </div>
       </div>
       <div class="pure-u-1-5">
-        <img class="circle" src="./img/you.jpg" alt="">
-        <h3>You!</h3>
-        <h4>Project Director<br>Awesome Event</h4>
-        <a href="mailto:team@founders.illinois.edu">email us!</a>
+        <div class="image-overlay" onmouseover="show('title-9')" onmouseout="hide('title-9')">
+          <img class="circle" src="./img/ali.jpg" alt="">
+          <h3><a href="mailto:afridi2@illinois.edu">Ali Afridi</a></h3>
+          <h4 class="js-hidden" id="title-9">Project Director<br>Learn to Code</h4>
+        </div>
+      </div>
+      <div class="pure-u-1-5">
+        <div class="image-overlay" onmouseover="show('title-10')" onmouseout="hide('title-10')">
+          <img class="circle" src="./img/you.jpg" alt="">
+          <h3><a href="mailto:team@founders.illinois.edu">You!</a></h3>
+          <h4 class="js-hidden" id="title-10">Project Director<br>Awesome Event</h4>
+        </div>
       </div>
     </div>
   </div>
@@ -155,6 +175,11 @@
     <h3>Join us on Facebook</h3>
     <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fillinoisfounders&amp;width=250&amp;height=80&amp;colorscheme=light&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;send=true&amp;appId=135502986597453" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:80px;" allowTransparency="true"></iframe>
     <a target="_blank" href="https://www.facebook.com/illinoisfounders" class="./img-link" style="position:relative; top:-10px;"><img src="./img/facebook_icon.png" alt="facebook"></a>
+    <h3>Follow us on Twitter</h3>
+    <!-- Begin Twitter Follow Button -->
+    <a href="https://twitter.com/ilfounders" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @ilfounders</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <!-- End Twitter Button -->
     <!-- Begin MailChimp Signup Form -->
     <h3>Sign up for the Mailing List</h3>
     <div id="mc_embed_signup">
@@ -183,16 +208,19 @@
 </div>
 
     </div>
+    <script type="text/javascript" src="./smooth-scroll.js"></script>
     <script type="text/javascript" src="./retina.min.js"></script>
+    <script type="text/javascript" src="./custom.js"></script>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-43451565-1', 'founders.is');
-      ga('send', 'pageview');
+        ga('create', 'UA-43451565-1', 'illinois.edu');
+        ga('send', 'pageview');
 
+      smoothScroll.init();
     </script>
   </body>
 </html>
