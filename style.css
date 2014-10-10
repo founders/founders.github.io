@@ -194,6 +194,14 @@ label {
   width: 100%;
 }
 
+.pure-g-r{
+  text-align: center
+}
+
+.event-block{
+  padding: 20px;
+  width: 25%;
+}
 
 .circle {
   display:block;
