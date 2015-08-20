@@ -46,6 +46,15 @@ a.img-link img:hover {
   padding:40px;
 }
 
+.career {
+  background:url(./img/startupfair.jpg) no-repeat center top fixed;
+  height: 400px;
+}
+
+h1.career-header {
+  font-size: 7em;
+}
+
 h1 {
   text-align:center;
   font-size:2.5em;
@@ -194,6 +203,14 @@ label {
   width: 100%;
 }
 
+.pure-g-r{
+  text-align: center
+}
+
+.event-block{
+  padding: 20px;
+  width: 25%;
+}
 
 .circle {
   display:block;
