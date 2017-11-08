@@ -1822,7 +1822,7 @@
 	}
 
 	a:hover {
-		color: #7bd2ed !important;
+		color: #ff9600 !important;
 	}
 
 	strong, b {
@@ -1989,7 +1989,7 @@
 		button.special,
 		.button.special {
 			box-shadow: none;
-			background-color: #7bd2ed;
+			background-color: #ff9600;
 			color: #ffffff !important;
 		}
 
@@ -1998,7 +1998,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #65caea;
+				background-color: #ffb64e;
 				color: #ffffff !important;
 			}
 
