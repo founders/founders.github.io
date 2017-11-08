@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "micro"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "micro": "^9.0.0"
+  }
+}
