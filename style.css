@@ -1,5 +1,5 @@
 body {
-  background:url(./img/tweed.png);
+  background:url(./images/tweed.png);
   font-family:Montserrat,sans-serif;
   font-size:100%;
   font-weight:400;
@@ -37,7 +37,7 @@ a.img-link img:hover {
 }
 
 .splash {
-  background:url(./img/school_alt.jpg) no-repeat center top fixed;
+  background:url(./images/school_alt.jpg) no-repeat center top fixed;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
@@ -47,7 +47,7 @@ a.img-link img:hover {
 }
 
 .career {
-  background:url(./img/startupfair.jpg) no-repeat center top fixed;
+  background:url(./images/startupfair.jpg) no-repeat center top fixed;
   height: 400px;
 }
 
@@ -59,12 +59,12 @@ h1 {
   text-align:center;
   font-size:2.5em;
   color:#FFF;
-  background:url(./img/sym_white.png) no-repeat center center;
+  background:url(./images/sym_white.png) no-repeat center center;
   padding:70px 0;
 }
 
 .image-back-1 {
-  background:url(./img/school.jpg) no-repeat center center fixed;
+  background:url(./images/school.jpg) no-repeat center center fixed;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
@@ -81,7 +81,7 @@ h1 {
 }
 
 .white-back {
-  background:url(./img/debut_light.png);
+  background:url(./images/debut_light.png);
   color:#333;
 }
 
@@ -241,7 +241,7 @@ h4.js-hidden {
   display: block;
   position: relative;
   width: 100%;
-  color: white; 
+  color: white;
   visibility: hidden;
   top: -150px;
 }
