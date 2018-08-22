@@ -11,4 +11,10 @@ $ npm i
 $ gulp
 ```
 
-If you have comments/suggestions about the website then message Ricardo Pierre-Louis on messenger or email him at pierrls2@illinois.edu
+If you receive an error that says `The term 'gulp' is not recognized...` then run:
+
+```
+$ npm install -g gulp-cli
+```
+
+If you have comments/suggestions about the website then email team@founders.illinois.edu to be directed to the website team.
