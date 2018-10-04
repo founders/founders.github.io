@@ -3522,10 +3522,10 @@
 			-webkit-transition: height 0.2s ease;
 			-ms-transition: height 0.2s ease;
 			transition: height 0.2s ease;
-			-moz-animation: more 0.75s ease-out 3s forwards;
-			-webkit-animation: more 0.75s ease-out 3s forwards;
-			-ms-animation: more 0.75s ease-out 3s forwards;
-			animation: more 0.75s ease-out 3s forwards;
+			-moz-animation: more 0.75s ease-out 0.75s forwards;
+			-webkit-animation: more 0.75s ease-out 0.75s forwards;
+			-ms-animation: more 0.75s ease-out 0.75s forwards;
+			animation: more 0.75s ease-out 0.75s forwards;
 			background-color: #ffffff;
 			background-image: url("images/arrow.svg");
 			background-position: 50% 0.875em;
