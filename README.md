@@ -7,8 +7,8 @@ Please mind that we do not accept pull requests or edits from members outside of
 Run the website on your own computer with livereload in four steps:
 
 ```
-$ git clone https://github.com/Illinois-Founders/Founders-Website-2017.git
-$ cd Founders-Website-2017
+$ git clone https://github.com/Illinois-Founders/Illinois-Founders.github.io.git
+$ cd Illinois-Founders.github.io
 $ npm i
 $ gulp
 ```
