@@ -1,6 +1,8 @@
 Illinois-Founders.github.io
 ===========================
-Landing Page for [Illinois Founders](http://founders.illinois.edu) hosted by Github
+Landing Page for [Illinois Founders](http://founders.illinois.edu) hosted by Github.
+
+Please mind that we do not accept pull requests or edits from members outside of the Founders club.
 
 Run the website on your own computer with livereload in four steps:
 
