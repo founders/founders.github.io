@@ -72,8 +72,10 @@
 							// Append video if supported.
 								if (!skel.vars.mobile
 								&&	!skel.breakpoint('large').active
-								&&	skel.vars.IEVersion > 9)
-									$banner.append('<video autoplay loop><source src="' + video + '.mp4" type="video/mp4" /><source src="' + video + '.webm" type="video/webm" /></video>');
+								&&	skel.vars.IEVersion > 9) {
+									$banner.append('<video autoplay loop><source src="./' + video + '.mp4" type="video/mp4" /><source src="./' + video + '.webm" type="video/webm" /></video>');
+									$banner.find("video")[0].load();
+								}
 
 						});
 
