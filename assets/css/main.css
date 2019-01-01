@@ -3345,6 +3345,19 @@
 		visibility: visible;
 	}
 
+/* Members Page Grid */
+.picture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    justify-items: center;
+    grid-gap: 5px;
+    grid-row-gap: 0px;
+}
+
+.grid-box img {
+    width: 100%;
+}
+
 /* Banner */
 
 	#banner {
@@ -3724,3 +3737,4 @@
 		min-height: 100vh;
 		opacity: 1;
 	}
+
