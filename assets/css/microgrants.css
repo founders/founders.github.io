@@ -1,0 +1,20 @@
+.stat-container > div{
+    width: 150px;
+    height: 150px;
+}
+
+.stat-container {
+    display: flex;
+    justify-content: space-between
+}
+
+.heading-4 {
+    font-family: Arial,sans-serif;
+    font-weight: 700;
+    color: #2e3334;
+    font-size: 70px;
+}
+
+p.text {
+    font-size: 1000px;
+}
