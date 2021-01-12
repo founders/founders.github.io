@@ -3757,9 +3757,9 @@
 /* Headshot Cards for Team Members */
 
 .headshots {
-	padding: 2rem;
-	margin-left: 2rem;
-	margin-right: 2rem;
+	padding: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
 .headshots .column {
@@ -3778,18 +3778,16 @@
 .headshots .card {
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 	padding-top: 1rem;
-	padding-bottom: 1rem;
 }
 
 .headshots .container {
-
+	padding: 4px;
 }
 
 .headshots .container::after, .row::after {
 	content: "";
 	clear: both;
 	display: table;
-	padding:
 }
 
 .headshots .title {
@@ -3801,5 +3799,9 @@
 	max-width: 50%;
 	height: auto;
 	float: left;
-	padding: .4rem;
+	margin: 1rem;
+}
+
+.headshots p {
+	padding: 2px;
 }
