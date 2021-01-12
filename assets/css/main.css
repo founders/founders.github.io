@@ -2391,6 +2391,13 @@
 
 /* Image */
 
+	.image_new {
+		border-radius: 4px;
+			border: 0;
+			display: inline-block;
+			position: relative;
+	}
+
 	.image {
 		border-radius: 4px;
 		border: 0;
@@ -3746,3 +3753,53 @@
 		opacity: 1;
 	}
 
+
+/* Headshot Cards for Team Members */
+
+.headshots {
+	padding: 2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.headshots .column {
+	float: center;
+	width: 33.33%;
+	margin-bottom: 24px;
+}
+
+@media screen and (max-width: 650px) {
+	.column {
+		width: 100%;
+		display: block;
+	}
+}
+
+.headshots .card {
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.headshots .container {
+
+}
+
+.headshots .container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+	padding:
+}
+
+.headshots .title {
+	color: grey;
+}
+
+.headshots img {
+	border-radius: 50%;
+	max-width: 50%;
+	height: auto;
+	float: left;
+	padding: .4rem;
+}
