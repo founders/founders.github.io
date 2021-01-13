@@ -3120,7 +3120,7 @@
 	}
 
 		#header a {
-			color: inherit;
+			color: #777777;
 			font-size: 0.8em;
 			font-weight: 500;
 			letter-spacing: 0.25em;
@@ -3157,6 +3157,7 @@
 
 					#header nav ul li a[href="#menu"] {
 						padding-right: 3em;
+						color: #FFFFFF;
 					}
 
 						#header nav ul li a[href="#menu"]:before {
@@ -3177,6 +3178,10 @@
 			background-color: transparent;
 			border-bottom-color: transparent;
 			color: #ffffff;
+		}
+
+		#header.alt a {
+			color: #FFFFFF;
 		}
 
 			#header.alt nav ul li a[href="#menu"]:before {
@@ -3226,7 +3231,7 @@
 /* Dropdown */
 .dropdown {
     position: relative;
-    display: inline-block;
+	display: inline-block;
 }
 
 .dropdown-content {
@@ -3240,7 +3245,7 @@
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+	display: block;
 }
 
 /* Menu */
