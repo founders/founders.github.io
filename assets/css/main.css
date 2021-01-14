@@ -1961,7 +1961,7 @@
 	.button {
 		background-color: transparent;
 		box-shadow: inset 0 0 0 2px #eaeaea;
-		color: #777777 !important;
+		color: #FFFFFF;
 	}
 
 		input[type="submit"]:hover,
@@ -3117,6 +3117,7 @@
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		padding-right: 1.0rem;
 	}
 
 		#header a {
