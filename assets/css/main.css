@@ -3767,6 +3767,12 @@
 	margin-right: 1rem;
 }
 
+.headshots .column .closer {
+	float: center;
+	width: 50%;
+	margin-bottom: 24px;
+}
+
 .headshots .column {
 	float: center;
 	width: 33.33%;
