@@ -3837,3 +3837,14 @@
 		border: none;
 	}
 }
+
+.recruit-banner {
+	position: fixed;
+    width: 100%;
+    background-color: #b2b2b2;
+    font-family: 'Josefin Sans', sans-serif;
+	font-size: 6px;
+	line-height: 16px;
+	color: #FFFFFF;
+	text-align: center;
+}
