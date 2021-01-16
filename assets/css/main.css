@@ -2011,6 +2011,15 @@
 				color: #ffffff !important;
 			}
 
+	@media screen and (max-width: 736px) {
+
+		.button.big {
+			font-size: .55rem;
+		}
+
+	}
+	
+
 /* Form */
 
 	form {
@@ -3117,7 +3126,7 @@
 		top: 0;
 		width: 100%;
 		z-index: 10000;
-		padding-right: 1.0rem;
+		padding-right: rem;
 	}
 
 		#header a {
@@ -3199,10 +3208,13 @@
 				height: 2.75em;
 				line-height: 2.75em;
 				padding: 0 0 0 0.75em;
+				padding-top: 2.25rem;
+				padding-bottom: 2.25rem;
 			}
 
 				#header nav ul li a {
 					padding: 0 0.75em 0 0.75em;
+					font-size: 10px;
 				}
 
 					#header nav ul li a[href="#menu"] {
@@ -3246,8 +3258,9 @@
 }
 
 .dropdown:hover .dropdown-content {
-	display: block;
+	display: grid;
 }
+
 
 /* Menu */
 
@@ -3780,7 +3793,7 @@
 	margin-bottom: 24px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 756px) {
 	.column {
 		width: 100%;
 		display: block;
@@ -3816,4 +3829,11 @@
 
 .headshots p {
 	padding: 2px;
+}
+
+@media screen and (max-width: 756px) {
+	.headshots img {
+		width: 100%;
+		border: none;
+	}
 }
