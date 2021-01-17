@@ -3848,3 +3848,39 @@
 	color: #FFFFFF;
 	text-align: center;
 }
+
+
+.face-grid {
+	text-align: center;
+}
+	.face-grid .face {
+	  display: inline-block;
+	  margin: 40px; }
+	  @media only screen and (max-width: 700px) {
+		.face-grid .face {
+		  margin: 10px; } }
+	  .face-grid .face .circle-crop {
+		border-radius: 50%;
+		height: 140px;
+		overflow: hidden;
+		position: relative;
+		width: 140px; }
+	  .face-grid .face img {
+		display: inline;
+		margin: 0 auto;
+		width: 100%;
+		filter: grayscale(10%);
+	}
+	  .face-grid .face strong {
+		color: #010101;
+		display: block;
+		font-size: 14px;
+		font-weight: bold;
+		margin-top: 12px;
+		text-align: center;
+		text-transform: uppercase; }
+	  .face-grid .face span {
+		color: #010101;
+		display: block;
+		font-size: 14px;
+		text-align: center; }
